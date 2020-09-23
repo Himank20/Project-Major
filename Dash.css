@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(bg_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(25, 52, 83);
+    font-family: montserrat, sans-serif;
+}
+
+.container {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+.container h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+label.heading {
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 600px;
+    font-weight: bold;
+}
+
+
+#block {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    border: 2px solid #0082e6;
+    border-radius: 10px;
+}
+
+.new-reg a {
+    line-height: 30px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.new-reg-f a {
+    line-height: 30px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+
+.new-reg {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: -100px;
+}
+
+
+#block:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+#block,h2 {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

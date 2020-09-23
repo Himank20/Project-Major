@@ -1,0 +1,9 @@
+<html>
+<head></head>
+<body>
+    <%
+        session.invalidate();
+        response.sendRedirect("Page0.jsp");
+    %>
+</body>
+</html>
